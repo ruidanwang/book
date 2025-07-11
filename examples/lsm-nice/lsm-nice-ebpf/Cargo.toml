@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-aya-ebpf = { git = "http://github.com/aya-rs/aya" }
-aya-log-ebpf = { git = "https://github.com/aya-rs/aya" }
+aya-ebpf = "0.1.1"
+aya-log-ebpf = "0.1.1"
 lsm-nice-common = { path = "../lsm-nice-common" }
 
 [build-dependencies]
